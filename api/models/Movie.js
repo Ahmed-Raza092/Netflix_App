@@ -5,38 +5,38 @@ const MovieSchema = new mongoose.Schema(
     title: {
       type: String,
       required: true,
-      unique: true
+      unique: true,
     },
     desc: {
-      type: String
+      type: String,
     },
     img: {
-      type: String
+      type: String,
     },
     imgTitle: {
-      type: String
+      type: String,
     },
     imgSm: {
-      type: String
+      type: String,
     },
-    trailer:{
-        type:String
+    trailer: {
+      type: String,
     },
-    video:{
-        type:String
+    video: {
+      type: String,
     },
-    year:{
-        type:String
+    year: {
+      type: String,
     },
-    limit:{
-        type:Number
+    limit: {
+      type: Number,
     },
-    genre:{
-        type:String
+    genre: {
+      type: String,
     },
-    isSeries:{
-        type:Boolean,
-        default:false
+    isSeries: {
+      type: Boolean,
+      default: false,
     },
   },
   { timestamps: true }
